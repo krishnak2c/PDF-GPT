@@ -1,0 +1,27 @@
+# ── Core ─────────────────────────────────────────
+streamlit==1.58.0
+python-dotenv==1.2.2
+
+# ── PDF Processing ──────────────────────────────
+PyPDF2==3.0.1
+pdf2image==1.17.0
+Pillow>=10.0.0                                # required by pdf2image
+
+# ── LangChain — RAG pipeline ────────────────────
+langchain-core==1.4.7
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langchain-google-genai==4.2.5                 # Gemini LLM integration
+faiss-cpu==1.14.3                             # vector database
+
+# ── Gemini SDK ──────────────────────────────────
+google-genai==2.8.0                           # Google AI SDK (v2)
+
+# ── Search & Retrieval ──────────────────────────
+rank-bm25==0.2.2                              # BM25 keyword retrieval
+
+# ── Local Embeddings (fallback when Google API quota exhausted) ──
+fastembed==0.8.0                              # ONNX-based, no GPU required
+
+# ── Markdown Rendering ─────────────────────────
+Markdown==3.10.2                              # server-side md→HTML conversion
