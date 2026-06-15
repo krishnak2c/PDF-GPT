@@ -6,7 +6,6 @@ import uuid
 import warnings
 from datetime import datetime
 
-import facade
 import google.genai as genai_new
 import markdown as md_lib
 import streamlit as st
@@ -30,11 +29,6 @@ from PyPDF2 import PdfReader
 from rank_bm25 import BM25Okapi
 
 load_dotenv()
-
-facade.theme.apply(
-    preset="carbon-dark",
-    radius="lg",
-)
 
 try:
     api_key = os.getenv("GOOGLE_API_KEY")
@@ -1270,7 +1264,7 @@ def main():
                     with cols[0]:
                         st.markdown(f"**{doc_name}**")
                         if ocr:
-                            facade.Badge("OCR", variant="outline")
+                            st.markdown('<span style="background:transparent;border:1px solid var(--st-primary-color,#CDEA12);color:var(--st-primary-color,#CDEA12);border-radius:4px;padding:1px 6px;font-size:0.7rem;">OCR</span>', unsafe_allow_html=True)
                         st.caption(f"{pages} pages · {chunks} chunks · {size} KB")
                     with cols[1]:
                         if st.button(
@@ -1290,7 +1284,7 @@ def main():
         st.markdown(
             "AI-powered PDF analysis tool. Ask questions, generate summaries, and create study materials from your documents."
         )
-        facade.Badge("v2.2", variant="muted")
+        st.markdown('<span style="background:transparent;border:1px solid var(--st-secondary-text-color,#888);color:var(--st-secondary-text-color,#888);border-radius:4px;padding:1px 6px;font-size:0.7rem;">v2.2</span>', unsafe_allow_html=True)
         st.markdown(
             ":material/person: Krishna · :material/code: [GitHub](https://github.com/krishnak2c/PDF-GPT) · :material/bug_report: [Issues](https://github.com/krishnak2c/PDF-GPT/issues)"
         )

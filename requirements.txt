@@ -23,8 +23,5 @@ rank-bm25==0.2.2                              # BM25 keyword retrieval
 # ── Local Embeddings (fallback when Google API quota exhausted) ──
 fastembed==0.8.0                              # ONNX-based, no GPU required
 
-# ── Streamlit UI Helpers ──────────────────────
-facade==0.1.6                                 # theme, badges, UI components
-
 # ── Markdown Rendering ─────────────────────────
 Markdown==3.10.2                              # server-side md→HTML conversion
