@@ -6,6 +6,18 @@
 
 > **A full-featured RAG application** — upload PDFs, ask questions, generate summaries, MCQs, and study notes using Google Gemini + hybrid search + OCR for scanned documents.
 
+## Screenshots
+
+| Home Page | Study Notes |
+|---|---|
+| ![Home Page](app-screenshot.png) | ![Study Notes](notes-output.png) |
+
+| Summary & Comparison | Thinking Indicator |
+|---|---|
+| ![Summary & Comparison](summary-notes-comparison.png) | ![Thinking Indicator](thinking-indicator.png) |
+
+[View live app →](https://pdfgpt0.streamlit.app/)
+
 ---
 
 ## Table of Contents
@@ -207,20 +219,6 @@ PDF-GPT goes beyond a standard RAG tutorial clone:
 | **Conversation memory** | Follow-up questions work naturally. |
 | **Streaming + markdown** | Animated output with proper formatting. |
 | **Production-grade UI** | Custom theme, Material icons, responsive layout, status indicators. |
-
----
-
-## Screenshots
-
-| Home Page | Study Notes |
-|---|---|
-| ![Home Page](app-screenshot.png) | ![Study Notes](notes-output.png) |
-
-| Summary & Comparison | Thinking Indicator |
-|---|---|
-| ![Summary & Comparison](summary-notes-comparison.png) | ![Thinking Indicator](thinking-indicator.png) |
-
-[View live app →](https://pdfgpt0.streamlit.app/)
 
 ---
 
