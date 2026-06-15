@@ -141,7 +141,7 @@
 
 ```bash
 # Clone
-git clone https://github.com/cu-sanjay/PDF-GPT.git
+git clone https://github.com/krishnak2c/PDF-GPT.git
 cd PDF-GPT
 
 # Create virtual environment
@@ -212,17 +212,15 @@ PDF-GPT goes beyond a standard RAG tutorial clone:
 
 ## Screenshots
 
-<!-- Replace these placeholders with your actual screenshots -->
-
-| Home Page | Chat |
+| Home Page | Study Notes |
 |---|---|
-| *Add screenshot of the main app with documents loaded* | *Add screenshot of chat Q&A with streamed response* |
+| ![Home Page](app-screenshot.png) | ![Study Notes](notes-output.png) |
 
-| Study Tools | OCR Processing |
+| Summary & Comparison | Thinking Indicator |
 |---|---|
-| *Add screenshot of MCQs or notes output* | *Add screenshot showing OCR badge on scanned document* |
+| ![Summary & Comparison](summary-notes-comparison.png) | ![Thinking Indicator](thinking-indicator.png) |
 
-> **Tip:** Take screenshots at 1920×1080 with dark mode enabled. Use a test PDF with clear structure (headings, tables).
+[View live app →](https://pdfgpt0.streamlit.app/)
 
 ---
 
@@ -286,6 +284,6 @@ MIT License — see [LICENSE](LICENSE).
 
 <p align="center">
   Built with Streamlit · LangChain · FAISS · Google Gemini<br>
-  <a href="https://github.com/cu-sanjay/PDF-GPT">GitHub</a> ·
-  <a href="https://github.com/cu-sanjay/PDF-GPT/issues">Report Issue</a>
+  <a href="https://github.com/krishnak2c/PDF-GPT">GitHub</a> ·
+  <a href="https://github.com/krishnak2c/PDF-GPT/issues">Report Issue</a>
 </p>
